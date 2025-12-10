@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Love Calendar 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Love Calendar pentru tine 💕</h1>
+    <p class="subtitle">Apasă pe o zi ca să vezi mesajul ❤️</p>
+
+    <div id="calendar"></div>
+
+    <div id="popup" class="hidden">
+        <div class="popup-content">
+            <span id="close">&times;</span>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
